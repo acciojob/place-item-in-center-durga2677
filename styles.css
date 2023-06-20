@@ -1,15 +1,14 @@
 
 /* Your CSS Code here. */
 .holder {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-      }
-      
-      /* Style for the item-1 element */
-      .item-1 {
-        background-color: blue;
-        color: white;
-        padding: 20px;
-      }
+	display: flex;
+	flex-direction: fullscreen;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	position: center;
+	
+}
+.item{
+	border:1px solid black;
+}
